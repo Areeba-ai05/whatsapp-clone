@@ -515,7 +515,7 @@ import 'package:flutter/material.dart';
                           children: [Row(
                                children: [
                                CircleAvatar(
-                                   backgroundImage: AssetImage('asset/img.jpg'),
+                                   backgroundImage: AssetImage('asset/img12.jpg'),
                                  //radius: 25, // Set radius for the avatar
                                ),
                                 Padding(
@@ -553,7 +553,7 @@ import 'package:flutter/material.dart';
                               Row(
                                  children: [
                                   CircleAvatar(
-                                    backgroundImage: AssetImage('asset/img.jpg'),
+                                    backgroundImage: AssetImage('asset/img13.jpg'),
                                      //radius: 25, // Set radius for the avatar
                                    ),
                                   Padding(
@@ -591,7 +591,7 @@ import 'package:flutter/material.dart';
                             children: [ Row(
                                children: [
                                  CircleAvatar(
-                                   backgroundImage: AssetImage('asset/img.jpg'),
+                                   backgroundImage: AssetImage('asset/img14.jpg'),
                                  radius: 25, // Set radius for the avatar
                                ),
                                 Padding(
