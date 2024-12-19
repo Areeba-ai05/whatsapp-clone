@@ -65,7 +65,7 @@ import 'package:flutter/material.dart';
                           children: [
                             Row(children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/img.jpg'),
+                                backgroundImage: AssetImage('assests/img1.jpg'),
                                 //radius: 25, // Set radius for the avatar
                               ),
                               Padding(
