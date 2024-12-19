@@ -660,16 +660,49 @@ import 'package:flutter/material.dart';
                               ),],
                            ),
                          ),
+                        AppBar(
+                          backgroundColor:Colors.black,
+                          actions:[
+                            Column(
+                              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                              children: [
+                                Icon(Icons.message, color: Colors.white),
+                                Text('Chats',style:TextStyle(color:Colors.white)),
+                              ],
+                            ),
 
+                            SizedBox(width: 10,),
+                            Column(
+                              children: [
+                                Icon(Icons.circle_outlined, color: Colors.white),
+                                Text('Updates',style:TextStyle(color:Colors.white)),
+                              ],
+                            ),
+                            SizedBox(width: 10,),
+                            Column(
+                              children: [
+                                Icon(Icons.people_alt_outlined,  color: Colors.white),
+                                Text('Communities',style:TextStyle(color:Colors.white)),
+                              ],
+                            ),
+                            SizedBox(width: 10,),
+                            Column(
+                              children: [
+                                Icon(Icons.call,  color: Colors.white),
+                                Text('Calls',style:TextStyle(color:Colors.white)),
+                              ],
+                            ),
+                          ],
+                        )
                       ],
+
                     ),
+
                     ),
                 ),
             ],
-          
           ),
         ),
-
       ),
 
      );
