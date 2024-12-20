@@ -23,12 +23,141 @@ class ExpandedClass extends StatelessWidget {
                 child: SingleChildScrollView(
                   child: Column(
                     children: [
+                      Card(
+                        color: Colors.grey,
+                        child: ListTile(
+                          leading: CircleAvatar(),
+                          title: Text('Sender Name'),
+                          subtitle: Text('last message'),
+                          trailing: Text('09:55AM'),
+                        ),
+                      ),
                       ListTile(
                         leading: CircleAvatar(),
                         title: Text('Sender Name'),
                         subtitle: Text('last message'),
                         trailing: Text('09:55AM'),
-                      )
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
+                      ListTile(
+                        leading: CircleAvatar(),
+                        title: Text('Sender Name'),
+                        subtitle: Text('last message'),
+                        trailing: Text('09:55AM'),
+                      ),
                     ],
                   ),
                 ),
