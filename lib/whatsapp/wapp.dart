@@ -20,148 +20,21 @@ class ExpandedClass extends StatelessWidget {
             (flex:80,
               child: Container(
             color: Colors.blue,
-                child: SingleChildScrollView(
-                  child: Column(
-                    children: [
-                      Card(
-                        color: Colors.grey,
-                        child: ListTile(
-                          leading: CircleAvatar(),
-                          title: Text('Sender Name'),
-                          subtitle: Text('last message'),
-                          trailing: Text('09:55AM'),
-                        ),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                      ListTile(
-                        leading: CircleAvatar(),
-                        title: Text('Sender Name'),
-                        subtitle: Text('last message'),
-                        trailing: Text('09:55AM'),
-                      ),
-                    ],
-                  ),
-                ),
-          )),
+                child: ListView.builder(
+                  itemCount: 5,//starting =0, ending =5-1
+                itemBuilder: (context,index)
+                  {
+                    return CircleAvatar(
+                      child:Text('${index+1}'),
+                      //child: Text(index.toString()),
+                    );
+                  },
+              )
+                     
+
+
+
+              )),
           Expanded
             (flex:10,
               child: Container(
