@@ -30,7 +30,7 @@ class ExpandedClass extends StatelessWidget {
                     );
                   },
               )
-                     
+
 
 
 
