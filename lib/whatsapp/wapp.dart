@@ -7,14 +7,19 @@ class ExpandedClass extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Expanded Widget'),
+        title: Text('Expanded widget'),
       ),
-      body: Column(
+
+      body:
+      Column(
         children: [
           Expanded
-            (flex:10,
+            (
+              flex:10,
+
               child: Container(
-            color: Colors.red,
+                color: Colors.black,
+
           )),
           Expanded
             (flex:80,
